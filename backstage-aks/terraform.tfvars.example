@@ -1,0 +1,16 @@
+# Required only if you want names other than the defaults.
+# prefix   = "backstage-dev"
+# location = "eastus"
+
+# AKS node pool sizing
+# node_count   = 2
+# node_vm_size = "Standard_B2s"
+
+# Backstage URL used inside app-config. Replace after assigning DNS to the LoadBalancer IP.
+# backstage_base_url = "http://backstage.example.com"
+
+# Restrict public LoadBalancer access. Empty allows all sources.
+# backstage_load_balancer_source_ranges = ["203.0.113.10/32"]
+
+# Use ClusterIP if you will put Backstage behind an ingress controller instead.
+# backstage_service_type = "LoadBalancer"
