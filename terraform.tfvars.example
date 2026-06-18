@@ -1,0 +1,13 @@
+ssh_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGReplaceThisWithYourPublicKey user@example"
+
+# Optional overrides
+# prefix          = "app-prod"
+# vm_name         = "app-prod-01"
+# location        = "eastus"
+# vm_size         = "Standard_B2s"
+# admin_username  = "azureuser"
+# private_ssh_source_cidr = "10.0.1.0/24"
+# tags = {
+#   environment = "prod"
+#   owner       = "platform"
+# }
